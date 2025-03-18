@@ -3,12 +3,13 @@
 ## 1. Filtragem
 Considere os seguintes filtros:
 
-Filtro da Média;
-Filtro Gaussiano;
-Filtro da Mediana;
-Filtro Sobel;
-Filtro Laplaciano;
-Canny Edge;
+- Filtro da Média
+- Filtro Gaussiano
+- Filtro da Mediana
+- Filtro Sobel
+- Filtro Laplaciano
+- Canny Edge
+
 
 Crie uma função que receba uma imagem em tons de cinza e o nome do filtro. Essa função deve retornar a imagem com o filtro aplicado.
 
