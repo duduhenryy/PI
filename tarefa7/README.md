@@ -28,8 +28,8 @@ dest_image = conv2d(source_image, matrix)
 
 Parâmetros:
 
-source_image: Imagem original em escala de cinza representada como uma matriz.
-matrix: Matriz 2x2 ou 3x3 que será usada na operação de convolução. Retorno:
+source_image: Imagem original em escala de cinza representada como uma matriz;
+matrix: Matriz 2x2 ou 3x3 que será usada na operação de convolução;
 dest_image: Imagem modificada, também representada como uma matriz.
  
 ## 3. Aprimoramento de Imagens Usando Filtros Passa-Baixa e Passa-Alta
