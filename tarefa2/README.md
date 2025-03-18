@@ -1,3 +1,5 @@
+# TAREFA 2 - Descrições
+
 ## 1. Manipule pixels para criar um triângulo
 Crie um algoritmo que receba as coordenadas de três pontos de um triângulo: p1, p2 e p3. Use essas informações para pintar um triângulo de cor preta em uma imagem.
 
