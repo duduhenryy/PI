@@ -11,7 +11,7 @@ Procure pela técnica de Equalização de Histograma e a implemente para aumenta
 ## 4. Meu primeiro buscador de imagens!
 Objetivo: Aprender a comparar imagens por meio de seus histogramas, utilizando diferentes métricas de distância.
  
-Instruções:
+### Instruções:
 
 Crie uma pasta com ao menos 5 imagens. Duas delas devem ser visualmente similares (não idênticas) e serão chamadas de S1 e S2. As demais imagens diferentes serão D1, D2 e D3.
 
