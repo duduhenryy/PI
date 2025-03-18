@@ -13,11 +13,11 @@ Objetivo: Aprender a comparar imagens por meio de seus histogramas, utilizando d
  
 ### Instruções:
 
-Crie uma pasta com ao menos 5 imagens. Duas delas devem ser visualmente similares (não idênticas) e serão chamadas de S1 e S2. As demais imagens diferentes serão D1, D2 e D3.
+Crie uma pasta com ao menos 5 imagens. Duas delas devem ser visualmente similares (não idênticas) e serão chamadas de S1 e S2. As demais imagens diferentes serão D1, D2 e D3;
 
-Implemente uma função que receba a imagem S1 e compare-a com S2, D1, D2 e D3 utilizando seus histogramas.
+Implemente uma função que receba a imagem S1 e compare-a com S2, D1, D2 e D3 utilizando seus histogramas;
 
-Calcule a distância de S1 para cada imagem usando as métricas de Correlação, Chi-Square e Bhattacharyya.
+Calcule a distância de S1 para cada imagem usando as métricas de Correlação, Chi-Square e Bhattacharyya;
 
 Para cada imagem, calcule a distância total da seguinte forma:
 
