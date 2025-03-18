@@ -19,7 +19,8 @@ Calcule a distância de S1 para cada imagem usando as métricas de Correlação,
 Para cada imagem, calcule a distância total da seguinte forma:
 
 $$
-\text{Distância Total} = \sqrt{(1 - \text{Corr})^2 + \text{Chi-Sq}^2 + \text{Bhat
+\text{Distância Total} = \sqrt{(1 - \text{Corr})^2 + \text{Chi-Sq}^2 + \text{Bhatta}^2}
+$$
 
 
 Retorne o nome da imagem que apresentou a menor distância em relação a S1.
