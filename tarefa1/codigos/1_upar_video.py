@@ -1,7 +1,7 @@
 import cv2
 
 # carrega o vídeo pra leitura
-cap = cv2.VideoCapture("tarefa1/video.mp4")
+cap = cv2.VideoCapture("tarefa1/sources/video.mp4")
 
 while cap.isOpened():
     # processa o vídeo frame por frame - enquanto o video estiver aberto e os frames puderem ser lidos
