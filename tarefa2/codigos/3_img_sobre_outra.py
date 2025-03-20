@@ -8,9 +8,9 @@ def paste(src, dst, x, y): # src: imagem maior e dst: imagem menor
     src[y:y + dst_height, x:x + dst_width] = dst
     return src
 
-imgOriginal = cv2.imread('tarefa2/amor.jpeg')
+imgOriginal = cv2.imread('tarefa2/sources/amor.jpeg')
 
-imgCortada = cv2.imread('tarefa2/clockImg.jpeg')
+imgCortada = cv2.imread('tarefa2/sources/clockImg.jpeg')
 
 # define as coordenadas de colar a imagem cortada
 x = 285
@@ -18,6 +18,6 @@ y = 285
 
 newImg = paste(imgOriginal, imgCortada, x, y)
 
-output_path = 'tarefa2/imgComOutra.jpeg'
+output_path = 'tarefa2/sources/imgComOutra.jpeg'
 cv2.imwrite(output_path, newImg)
 print(f"Imagem colada salva em: {output_path}")
