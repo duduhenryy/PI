@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('tarefa2/amor.jpeg')
+image = cv2.imread('tarefa2/sources/amor.jpeg')
 points = []
 
 
