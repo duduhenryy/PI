@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('tarefa2/amor.jpeg')
+image = cv2.imread('tarefa2/sources/amor.jpeg')
 
 p1 = (930, 390)
 p2 = (860, 560)
@@ -14,7 +14,7 @@ triangle_cnt = np.array([p1, p2, p3])
 cv2.drawContours(image, [triangle_cnt], 0, (0, 0, 0), -1)
 
 # Salvar a imagem resultante
-output_path = 'tarefa2/imgTriangulo.jpeg'
+output_path = 'tarefa2/sources/imgTriangulo.jpeg'
 cv2.imwrite(output_path, image)
 
 print(f"Imagem salva em: {output_path}")
