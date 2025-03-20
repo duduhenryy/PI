@@ -18,4 +18,5 @@ Siga as instruções abaixo:
 
 Crie uma imagem vazia de tamanho 600x300.
 Divida a imagem em três colunas iguais. Na primeira coluna, preencha todos os pixels com a cor vermelha (lembre-se, a cor é representada em formato BGR no OpenCV). Na segunda coluna, preencha todos os pixels com a cor verde. Na terceira coluna, preencha todos os pixels com a cor azul.
-Salve a imagem resultante em disco com o nome "imagem3.png".
+Salve a imagem resultante em disco com o nome "imagem3.png". Ela deve se parecer com a seguinte:
+
