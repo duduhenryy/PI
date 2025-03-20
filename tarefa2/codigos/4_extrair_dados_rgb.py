@@ -40,6 +40,6 @@ def predominant_color(image_path):
 
     return dominant_color
 
-image_path = 'tarefa2/parrot.jpg'
+image_path = 'tarefa2/sources/parrot.jpg'
 
 predominant_color(image_path)
