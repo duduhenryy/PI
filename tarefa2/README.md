@@ -14,7 +14,7 @@ Sua tarefa é criar uma função chamada crop(). Essa função deve receber cinc
 
 Suponha a imagem abaixo, que chamaremos de messiImg:
 
-
+![Image](https://github.com/user-attachments/assets/c51ea539-fdc9-4205-aa3c-d68bf5a2f265)
 
 Por exemplo, se sua função for chamada com os seguintes parâmetros:
 
@@ -25,7 +25,7 @@ altura_bola = 49
 ballImg = crop(messiImg, x_bola, y_bola, largura_bola, altura_bola)
 A variável ballImg deve conter apenas a imagem da bola.
 
-
+![Image](https://github.com/user-attachments/assets/11cd9da3-77cf-469a-b097-f0232b9bac80)
 
 ## 3. Colar Imagem em uma Posição Específica
 Neste exercício, você criará uma função chamada paste(), que "cola" uma imagem menor (destino) em uma imagem maior (origem).
@@ -37,7 +37,11 @@ dst (destination): A imagem menor que será colada na imagem original.
 x, y: As coordenadas da posição na imagem original onde a imagem menor será colada.
 A função deve retornar a imagem original modificada com a imagem menor colada na posição especificada.
 
+![Image](https://github.com/user-attachments/assets/0ce38f62-c506-4908-bb6f-d5b714a93011)
+
 ## 4. Trabalhando com Canais de Cores
+
+![Image](https://github.com/user-attachments/assets/12423af5-8d3a-434d-abd6-0c4be3dda5c8)
 
 Neste exercício, seu objetivo é determinar qual é a cor predominante — "vermelha", "verde" ou "azul" — em uma imagem dada.
 
