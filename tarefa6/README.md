@@ -4,8 +4,8 @@ Utilizando os algoritmos de Limiarização conhecidos, descubra os que melhor se
 
 https://drive.google.com/drive/folders/1u-rKiYBE59NaA8Ej9YgaOQDYwwipkYvE?usp=sharing
 
-carta_getulio.jpg => separar o texto da carta do fundo
-mapa1.gif, mapa2.gif e mapa3.gif => separar o mapa das linhas e letras
+- carta_getulio.jpg => separar o texto da carta do fundo
+- mapa1.gif, mapa2.gif e mapa3.gif => separar o mapa das linhas e letras
 
 ## 2. Exercício de Segmentação de Céu com Técnicas de Limiarização
 O objetivo deste exercício é aplicar diferentes técnicas de limiarização para segmentar o céu em um conjunto de imagens. Você vai usar o Sky Dataset, que contém 60 imagens com suas respectivas segmentações de céu (ground truths).
