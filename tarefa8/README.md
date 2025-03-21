@@ -4,6 +4,16 @@ Crie um algoritmo que pegue a imagem abaixo e gere uma imagem contendo apenas as
 
 OBS: Use morfologia matemática para tal.
 
+![Image](https://github.com/user-attachments/assets/669ccc2f-e7df-412b-bff2-5c32235cda11)
+
+![Image](https://github.com/user-attachments/assets/36f6e703-69f7-4ad1-b413-38d2cd95a7a0)
+
+![Image](https://github.com/user-attachments/assets/3a8f432f-8c34-4aa5-814a-c5173164465c)
+
+![Image](https://github.com/user-attachments/assets/b1123e13-e842-43b1-9417-5e161c1e01ef)
+
+![Image](https://github.com/user-attachments/assets/54ac1b6f-c0c1-49fd-aeff-de35a2336ddf)
+
 ## 2. Correção de Imagem
 Tente corrigir as imagens abaixo de maneira que o cervo esteja visível e as bolas pretas também.
 
