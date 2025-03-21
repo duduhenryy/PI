@@ -32,10 +32,16 @@ Neste exercício, você criará uma função chamada paste(), que "cola" uma ima
 
 A função paste() deve receber quatro parâmetros:
 
-src (source): A imagem original onde a imagem menor será colada.
-dst (destination): A imagem menor que será colada na imagem original.
-x, y: As coordenadas da posição na imagem original onde a imagem menor será colada.
+- src (source): A imagem original onde a imagem menor será colada.
+- dst (destination): A imagem menor que será colada na imagem original.
+- x, y: As coordenadas da posição na imagem original onde a imagem menor será colada.
+- 
 A função deve retornar a imagem original modificada com a imagem menor colada na posição especificada.
+Por exemplo, ao chamar a função abaixo:
+
+newImg = paste(messiImg, ballImg, x, y)
+
+O resultado será a imagem newImg, com a ballImg colada na posição (x, y) da imagem messiImg.
 
 ![Image](https://github.com/user-attachments/assets/0ce38f62-c506-4908-bb6f-d5b714a93011)
 
