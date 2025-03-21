@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-imgCarta = cv2.imread('tarefa7/carta_getulio.jpg', 0)
+imgCarta = cv2.imread('tarefa7/sources/carta_getulio.jpg', 0)
 
 # limiarizacao - tecnica que consiste em pegar uma imagem e representá-la em apenas preto e branco
 
@@ -36,9 +36,9 @@ plt.show()
 
 # Fazendo para os mapas
 
-mapa1 = cv2.imread('tarefa7/mapa1.jpg', 0)
-mapa2 = cv2.imread('tarefa7/mapa2.jpg', 0)
-mapa3 = cv2.imread('tarefa7/mapa3.jpg', 0)
+mapa1 = cv2.imread('tarefa7/sources/mapa1.jpg', 0)
+mapa2 = cv2.imread('tarefa7/sources/mapa2.jpg', 0)
+mapa3 = cv2.imread('tarefa7/sources/mapa3.jpg', 0)
 
 _, limGlobalMapa1 = cv2.threshold(mapa1, 127, 255, cv2.THRESH_BINARY)
 _, limGlobalMapa2 = cv2.threshold(mapa2, 127, 255, cv2.THRESH_BINARY)
