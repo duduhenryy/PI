@@ -1,7 +1,7 @@
 import cv2
 
-main_image = cv2.imread('tarefa3/jeongin.png')
-watermark = cv2.imread('tarefa3/image.png', cv2.IMREAD_UNCHANGED)  # preserva o alpha se tiver
+main_image = cv2.imread('tarefa3/sources/jeongin.png')
+watermark = cv2.imread('tarefa3/sources/image.png', cv2.IMREAD_UNCHANGED)  # preserva o alpha se tiver
 
 main_height, main_width = main_image.shape[:2]
 watermark = cv2.resize(watermark, (main_width, main_height), interpolation=cv2.INTER_AREA) # redimensiona a marca dagua pra ela abrangir toda imagem original
@@ -28,6 +28,6 @@ else:
     main_image = cv2.addWeighted(main_image, 1 - alpha, watermark, alpha, 0)
 
 # Salvar a imagem resultante
-output_path = 'tarefa3/watermark.png'
+output_path = 'tarefa3/sources/watermark.png'
 cv2.imwrite(output_path, main_image)
 print(f"Imagem com marca d'água salva em: {output_path}")
