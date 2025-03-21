@@ -12,7 +12,7 @@ Considere o exemplo abaixo:
 ## 2. Extração de Região de Interesse (ROI) em uma Imagem
 Sua tarefa é criar uma função chamada crop(). Essa função deve receber cinco parâmetros: uma imagem, as coordenadas x e y, e as dimensões de altura e largura da região a ser recortada. A função deve retornar o segmento da imagem correspondente a essa região.
 
-Suponha a imagem abaixo, que chamaremos de messiImg:
+Suponha a imagem abaixo, que chamaremos de messiImg: 
 
 ![Image](https://github.com/user-attachments/assets/c51ea539-fdc9-4205-aa3c-d68bf5a2f265)
 
