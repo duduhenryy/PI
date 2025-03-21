@@ -19,7 +19,7 @@ def plotar_histograma(image, title, color):
     plt.ylabel("Contagem de Pixels")
     plt.grid()
 
-img = cv2.imread("pi/pi/tarefa6/exWiki.jpg", 0)
+img = cv2.imread("tarefa6/sources/exWiki.jpg", 0)
 img_equalizada = cv2.equalizeHist(img)
 
 # cria uma única figura 
