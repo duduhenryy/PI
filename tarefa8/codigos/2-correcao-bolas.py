@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-bolas = cv2.imread("tarefa9/bolas.png", 0)
+bolas = cv2.imread("tarefa9/sources/bolas.png", 0)
 
 kernel = np.array([[0,1,0],
                     [1,1,1],
