@@ -18,11 +18,13 @@ Suponha a imagem abaixo, que chamaremos de messiImg:
 
 Por exemplo, se sua função for chamada com os seguintes parâmetros:
 
-x_bola = 336
-y_bola = 287
-largura_bola = 163
-altura_bola = 49
+- x_bola = 336
+- y_bola = 287
+- largura_bola = 163
+- altura_bola = 49
+- 
 ballImg = crop(messiImg, x_bola, y_bola, largura_bola, altura_bola)
+
 A variável ballImg deve conter apenas a imagem da bola.
 
 ![Image](https://github.com/user-attachments/assets/11cd9da3-77cf-469a-b097-f0232b9bac80)
@@ -35,7 +37,7 @@ A função paste() deve receber quatro parâmetros:
 - src (source): A imagem original onde a imagem menor será colada.
 - dst (destination): A imagem menor que será colada na imagem original.
 - x, y: As coordenadas da posição na imagem original onde a imagem menor será colada.
-- 
+
 A função deve retornar a imagem original modificada com a imagem menor colada na posição especificada.
 Por exemplo, ao chamar a função abaixo:
 
