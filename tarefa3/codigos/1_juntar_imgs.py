@@ -1,7 +1,7 @@
 import cv2
 
-original_img = cv2.imread('tarefa3/jeongin.png')
-mask_img = cv2.imread('tarefa3/jeongin_pintado.png')
+original_img = cv2.imread('tarefa3/sources/jeongin.png')
+mask_img = cv2.imread('tarefa3/sources/jeongin_pintado.png')
 
 original_height, original_width = original_img.shape[:2]
 mask_img = cv2.resize(mask_img, (original_width, original_height)) # redimensiona para que as imagens fiquem iguais em dimensao
@@ -12,6 +12,6 @@ mask_img = cv2.resize(mask_img, (original_width, original_height)) # redimension
 # o último parametro é o gama, que está zerado
 blended_img = cv2.addWeighted(mask_img, 0.2, original_img, 0.8, 0)
 
-output_path = 'tarefa3/jeongin_loiro.png'
+output_path = 'tarefa3/sources/jeongin_loiro.png'
 cv2.imwrite(output_path, blended_img)
 print(f"Imagem com cabelo colorido salva em: {output_path}")
