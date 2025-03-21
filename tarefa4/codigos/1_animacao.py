@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('tarefa4/yn.png')
+img = cv2.imread('tarefa4/sources/yn.png')
 height, width, _ = img.shape
 
 # inicializar o vídeo com 30 fps e as mesmas dimensoes da imagem
