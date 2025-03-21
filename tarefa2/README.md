@@ -12,6 +12,21 @@ Considere o exemplo abaixo:
 ## 2. Extração de Região de Interesse (ROI) em uma Imagem
 Sua tarefa é criar uma função chamada crop(). Essa função deve receber cinco parâmetros: uma imagem, as coordenadas x e y, e as dimensões de altura e largura da região a ser recortada. A função deve retornar o segmento da imagem correspondente a essa região.
 
+Suponha a imagem abaixo, que chamaremos de messiImg:
+
+
+
+Por exemplo, se sua função for chamada com os seguintes parâmetros:
+
+x_bola = 336
+y_bola = 287
+largura_bola = 163
+altura_bola = 49
+ballImg = crop(messiImg, x_bola, y_bola, largura_bola, altura_bola)
+A variável ballImg deve conter apenas a imagem da bola.
+
+
+
 ## 3. Colar Imagem em uma Posição Específica
 Neste exercício, você criará uma função chamada paste(), que "cola" uma imagem menor (destino) em uma imagem maior (origem).
 
