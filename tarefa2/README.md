@@ -5,6 +5,10 @@ Crie um algoritmo que receba as coordenadas de três pontos de um triângulo: p1
 
 Salve a imagem resultante em disco, fazendo com que o triângulo preto ocupe a região definida pelos três pontos mencionados.
 
+Considere o exemplo abaixo:
+
+<img width="338" alt="Image" src="https://github.com/user-attachments/assets/5a5a6cc7-0c3e-4a3d-b341-664cdb55a91d" />
+
 ## 2. Extração de Região de Interesse (ROI) em uma Imagem
 Sua tarefa é criar uma função chamada crop(). Essa função deve receber cinco parâmetros: uma imagem, as coordenadas x e y, e as dimensões de altura e largura da região a ser recortada. A função deve retornar o segmento da imagem correspondente a essa região.
 
