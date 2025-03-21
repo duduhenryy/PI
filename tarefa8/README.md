@@ -10,8 +10,6 @@ OBS: Use morfologia matemática para tal.
 
 ![Image](https://github.com/user-attachments/assets/3a8f432f-8c34-4aa5-814a-c5173164465c)
 
-![Image](https://github.com/user-attachments/assets/b1123e13-e842-43b1-9417-5e161c1e01ef)
-
 ![Image](https://github.com/user-attachments/assets/54ac1b6f-c0c1-49fd-aeff-de35a2336ddf)
 
 ## 2. Correção de Imagem
