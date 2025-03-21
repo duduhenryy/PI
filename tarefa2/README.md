@@ -22,7 +22,7 @@ Por exemplo, se sua função for chamada com os seguintes parâmetros:
 - y_bola = 287
 - largura_bola = 163
 - altura_bola = 49
-- 
+
 ballImg = crop(messiImg, x_bola, y_bola, largura_bola, altura_bola)
 
 A variável ballImg deve conter apenas a imagem da bola.
