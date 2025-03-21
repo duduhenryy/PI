@@ -43,3 +43,4 @@ Análise: Mostre as imagens antes e depois do aprimoramento em um grid usando su
 
 Bônus: Implemente uma interface gráfica simples para carregar uma imagem e aplicar o aprimoramento.
 
+![Image](https://github.com/user-attachments/assets/80742617-3659-4c81-b0e2-64616cc9aeb4)
