@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-cervos = cv2.imread("tarefa9/sources/cervos.png", 0)
+cervos = cv2.imread("tarefa8/sources/cervos.png", 0)
 
 kernel = np.array([[0,1,0],
                     [1,1,1],
