@@ -45,9 +45,9 @@ def videoDilatacao(caminho_imagem, caminho_video):
     print(f"Vídeo de dilatação salvo em {caminho_video}")
 
 # Exemplo de uso
-caminho_imagem = "tarefa9/sources/j.png"
-output_erosao = "tarefa9/sources/video_erosao.mp4"
-output_dilatacao = "tarefa9/sources/video_dilatacao.mp4"
+caminho_imagem = "tarefa8/sources/j.png"
+output_erosao = "tarefa8/sources/video_erosao.mp4"
+output_dilatacao = "tarefa8/sources/video_dilatacao.mp4"
 
 videoErosao(caminho_imagem, output_erosao)
 videoDilatacao(caminho_imagem, output_dilatacao)
