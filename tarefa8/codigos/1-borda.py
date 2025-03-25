@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-imagem = cv2.imread("tarefa9/sources/exemplo.jpg", 0)
+imagem = cv2.imread("tarefa8/sources/exemplo.jpg", 0)
 
 # criação de uma matriz 2x2 composta por "uns", que será o kernel (operador morfológico) a ser passado na imagem para
 kernel = np.ones((2,2), np.uint8)
