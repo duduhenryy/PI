@@ -46,7 +46,7 @@ def aplicar_filtro(imagem, filtro):
     else:
         raise ValueError("Filtro desconhecido: " + filtro)
 
-imagem = cv2.imread("tarefa8/sources/totoro.jpg", 0)
+imagem = cv2.imread("tarefa7/sources/totoro.jpg", 0)
 
 # realiza a aplicação dos filtros na imagem a partir da função
 filtros = ["media", "gaussiano", "mediana", "sobel", "laplaciano", "canny edge"]
