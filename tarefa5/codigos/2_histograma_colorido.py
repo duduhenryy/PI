@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread("tarefa6/sources/yn.png")
+img = cv2.imread("tarefa5/sources/yn.png")
 cv2.imshow("Imagem",img)
 
 cores = ('b', 'g', 'r') # representa cada canal
