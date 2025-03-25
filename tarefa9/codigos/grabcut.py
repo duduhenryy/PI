@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-imagem = cv2.imread("tarefa10/dog.jpg")
+imagem = cv2.imread("tarefa9/sources/dog.jpg")
 imagem = cv2.cvtColor(imagem, cv2.COLOR_BGR2RGB)
 
 # cria uma máscara com as mesmas dimensoes da imagem
@@ -62,4 +62,4 @@ plt.axis("off")
 
 plt.show()
 
-cv2.imwrite("tarefa10/resultado_grabcut.jpg", cv2.cvtColor(resultado.astype(np.uint8), cv2.COLOR_RGB2BGR))
+cv2.imwrite("tarefa9/sources/resultado_grabcut.jpg", cv2.cvtColor(resultado.astype(np.uint8), cv2.COLOR_RGB2BGR))
