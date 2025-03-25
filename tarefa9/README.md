@@ -21,4 +21,4 @@ https://www.youtube.com/watch?v=DyRfAIQfVug
 
 Baseado nisso e nos conhecimentos anteriores, crie um algoritmo que segmente sua imagem e adicione por cima do fundo um efeito de borramento, usando um dos filtros explicados em lições passadas.
 
-maxresdefault.jpg
+![Image](https://github.com/user-attachments/assets/c82424fc-38fa-4c36-a48a-2ca8cffbfed0)
