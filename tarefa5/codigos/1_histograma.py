@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-imgPB = cv2.imread("tarefa6/sources/yn.png", 0)
-img = cv2.imread("tarefa6/sources/yn.png")
+imgPB = cv2.imread("tarefa5/sources/yn.png", 0)
+img = cv2.imread("tarefa5/sources/yn.png")
 
 cv2.imshow("Imagem Original", img)
 cv2.imshow("Imagem em Preto e Branco", imgPB)
