@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-imagem = cv2.imread("tarefa10/yn.png")
+imagem = cv2.imread("tarefa9/sources/yn.png")
 imagem = cv2.cvtColor(imagem, cv2.COLOR_BGR2RGB)
 
 # conversão da cópia da imagem original para o formato que o k-means trabalha: matriz de pixels de dimensoes -1 para linhas (valor n) e
@@ -39,4 +39,4 @@ imagem_segmentada = cv2.cvtColor(imagem_segmentada, cv2.COLOR_RGB2BGR)
 cv2.imshow("imagem segmntada", imagem_segmentada)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-cv2.imwrite("tarefa10/imagem_8bits.jpg", cv2.cvtColor(imagem_segmentada, cv2.COLOR_RGB2BGR))
+cv2.imwrite("tarefa9/sources/imagem_8bits.jpg", cv2.cvtColor(imagem_segmentada, cv2.COLOR_RGB2BGR))
