@@ -54,8 +54,8 @@ def encontrar_img_semelhante(caminho_s1, caminhos_imagens):
     imagem_mais_semelhante = min(distancias, key=distancias.get)
     return imagem_mais_semelhante, distancias, metricas
 
-caminho_s1 = "tarefa6/sources/S1.jpg"
-caminhos_imagens = ["tarefa6/sources/S2.jpg", "tarefa6/sources/D1.jpg", "tarefa6/sources/D2.jpg", "tarefa6/sources/D3.jpg"]  # Lista de imagens a comparar
+caminho_s1 = "tarefa5/sources/S1.jpg"
+caminhos_imagens = ["tarefa5/sources/S2.jpg", "tarefa5/sources/D1.jpg", "tarefa5/sources/D2.jpg", "tarefa5/sources/D3.jpg"]  # Lista de imagens a comparar
 
 imagem_mais_semelhante, distancias, metricas = encontrar_img_semelhante(caminho_s1, caminhos_imagens)
 
